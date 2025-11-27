@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 14.3.0
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/home/irman/micromamba/envs/ros2_env/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/irman/Documents/HUMA/ws_g1/build/g1_package
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/head_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_ankle_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_ankle_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_elbow_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_index_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_index_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_middle_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_middle_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_palm_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_thumb_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_thumb_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hand_thumb_2_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hip_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hip_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_hip_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_knee_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_rubber_hand.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_shoulder_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_shoulder_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_shoulder_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_wrist_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_wrist_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_wrist_roll_rubber_hand.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/left_wrist_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/logo_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/pelvis.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/pelvis_contour_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_ankle_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_ankle_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_elbow_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_index_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_index_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_middle_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_middle_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_palm_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_thumb_0_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_thumb_1_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hand_thumb_2_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hip_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hip_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_hip_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_knee_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_rubber_hand.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_shoulder_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_shoulder_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_shoulder_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_wrist_pitch_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_wrist_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_wrist_roll_rubber_hand.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/right_wrist_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_constraint_L_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_constraint_L_rod_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_constraint_R_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_constraint_R_rod_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_link_23dof_rev_1_0.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/torso_link_rev_1_0.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_constraint_L.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_constraint_R.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_roll_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_roll_link_rev_1_0.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_support_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_yaw_link.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/meshes/waist_yaw_link_rev_1_0.STL
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/urdf/g1.rviz
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/urdf/g1_29dof.urdf
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/launch/g1_robot.launch.xml
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/ament_index/resource_index/package_run_dependencies/g1_package
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/ament_index/resource_index/parent_prefix_path/g1_package
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/environment/path.sh
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/environment/path.dsv
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/local_setup.bash
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/local_setup.sh
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/local_setup.zsh
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/local_setup.dsv
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/package.dsv
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/ament_index/resource_index/packages/g1_package
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/cmake/g1_packageConfig.cmake
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/cmake/g1_packageConfig-version.cmake
+-- Symlinking: /home/irman/Documents/HUMA/ws_g1/install/g1_package/share/g1_package/package.xml
