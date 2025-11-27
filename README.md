@@ -54,7 +54,7 @@ micromamba install -y \
 
 ```bash
 cd ~/Documents/HUMA
-git https://github.com/adeirman46/ROS2_Humanoid_VLA
+git clone https://github.com/adeirman46/ROS2_Humanoid_VLA
 ```
 
 ### 4. Build Workspace
