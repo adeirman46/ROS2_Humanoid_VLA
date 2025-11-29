@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gtest",
+		"source" : "/home/irman/micromamba/envs/ros2_env/src/gtest_vendor"
+	}
+}

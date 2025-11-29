@@ -1,0 +1,88 @@
+[0.006s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller
+[0.153s] -- The CXX compiler identification is GNU 14.3.0
+[0.166s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.285s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+[0.407s] -- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+[0.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.568s] -- Found angles: 1.15.0 (/home/irman/micromamba/envs/ros2_env/share/angles/cmake)
+[0.575s] -- Found control_msgs: 4.8.0 (/home/irman/micromamba/envs/ros2_env/share/control_msgs/cmake)
+[0.646s] -- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.659s] -- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found control_toolbox: 3.6.1 (/home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake)
+[1.107s] -- Checking for module 'yaml-0.1'
+[1.207s] --   Found yaml-0.1, version 0.2.5
+[1.504s] -- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[1.512s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[1.977s] -- Found OpenSSL: /home/irman/micromamba/envs/ros2_env/lib/libcrypto.so (found version "3.5.4")
+[2.024s] -- Found FastRTPS: /home/irman/micromamba/envs/ros2_env/include
+[2.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.211s] -- Found Threads: TRUE
+[2.414s] CMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[2.415s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.415s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.415s]   set the policy and suppress this warning.
+[2.415s] 
+[2.415s] Call Stack (most recent call first):
+[2.415s]   /home/irman/micromamba/envs/ros2_env/share/filters/cmake/filtersConfig.cmake:41 (include)
+[2.415s]   /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.415s]   /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[2.415s]   CMakeLists.txt:28 (find_package)
+[2.415s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.415s] 
+[2.471s] -- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)
+[2.506s] -- Found ament_cmake_gmock: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gmock/cmake)
+[2.511s] -- Found controller_manager: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_manager/cmake)
+[2.553s] -- Found ros2_control_test_assets: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/ros2_control_test_assets/cmake)
+[2.560s] -- Found gmock sources under '/home/irman/micromamba/envs/ros2_env/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.604s] -- The C compiler identification is GNU 14.3.0
+[2.614s] -- Detecting C compiler ABI info
+[2.693s] -- Detecting C compiler ABI info - done
+[2.711s] -- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped
+[2.711s] -- Detecting C compile features
+[2.711s] -- Detecting C compile features - done
+[2.720s] CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.720s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.720s]   CMake.
+[2.720s] 
+[2.720s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.720s]   to tell CMake that the project requires at least <min> but has been updated
+[2.720s]   to work with policies introduced by <max> or earlier.
+[2.721s] 
+[2.721s] 
+[2.730s] -- Found ament_cmake_gtest: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gtest/cmake)
+[2.732s] -- Found gtest sources under '/home/irman/micromamba/envs/ros2_env/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.736s] CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.736s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.736s]   CMake.
+[2.736s] 
+[2.736s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.736s]   to tell CMake that the project requires at least <min> but has been updated
+[2.736s]   to work with policies introduced by <max> or earlier.
+[2.737s] 
+[2.737s] 
+[2.821s] -- Configuring done (2.8s)
+[2.915s] CMake Error at CMakeLists.txt:74 (target_link_libraries):
+[2.915s]   Target "test_trajectory_controller" links to:
+[2.915s] 
+[2.915s]     ros2_control_test_assets::ros2_control_test_assets
+[2.915s] 
+[2.915s]   but the target was not found.  Possible reasons include:
+[2.915s] 
+[2.915s]     * There is a typo in the target name.
+[2.915s]     * A find_package call is missing for an IMPORTED target.
+[2.915s]     * An ALIAS target is missing.
+[2.915s] 
+[2.915s] 
+[2.915s] 
+[2.918s] -- Generating done (0.1s)
+[2.918s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.938s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller' returned '1': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller

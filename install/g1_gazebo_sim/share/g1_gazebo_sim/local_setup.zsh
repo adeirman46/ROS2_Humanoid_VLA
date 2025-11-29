@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/build/g1_gazebo_sim/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp

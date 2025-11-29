@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake

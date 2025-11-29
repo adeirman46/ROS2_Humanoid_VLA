@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp

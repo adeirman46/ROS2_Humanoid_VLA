@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster -- -j16 -l16
+[0.058s] [ 15%] Built target joint_state_broadcaster_parameters
+[0.066s] [ 30%] Built target gmock_main
+[0.067s] [ 53%] Built target gmock
+[0.090s] [ 69%] Built target joint_state_broadcaster
+[0.133s] [100%] Built target test_joint_state_broadcaster
+[0.133s] [100%] Built target test_load_joint_state_broadcaster
+[0.144s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster -- -j16 -l16
+[0.155s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster
+[0.163s] -- Install configuration: ""
+[0.163s] -- Execute custom install script
+[0.164s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp
+[0.173s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster//joint_state_plugin.xml
+[0.182s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[0.191s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[0.198s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[0.204s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[0.213s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[0.219s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[0.229s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[0.236s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[0.245s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[0.252s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[0.263s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[0.270s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[0.277s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[0.284s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[0.292s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[0.298s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.306s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[0.313s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[0.322s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[0.329s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[0.338s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[0.339s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[0.339s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[0.341s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster

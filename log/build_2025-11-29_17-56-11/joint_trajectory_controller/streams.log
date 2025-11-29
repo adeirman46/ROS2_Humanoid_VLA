@@ -1,0 +1,74 @@
+[0.012s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller
+[0.023s] -- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Found angles: 1.15.0 (/home/irman/micromamba/envs/ros2_env/share/angles/cmake)
+[0.191s] -- Found control_msgs: 4.8.0 (/home/irman/micromamba/envs/ros2_env/share/control_msgs/cmake)
+[0.215s] -- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found control_toolbox: 3.6.1 (/home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake)
+[0.480s] -- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[0.481s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.753s] CMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[0.753s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.753s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.753s]   set the policy and suppress this warning.
+[0.753s] 
+[0.753s] Call Stack (most recent call first):
+[0.753s]   /home/irman/micromamba/envs/ros2_env/share/filters/cmake/filtersConfig.cmake:41 (include)
+[0.753s]   /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.753s]   /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[0.753s]   CMakeLists.txt:28 (find_package)
+[0.753s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.753s] 
+[0.771s] -- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)
+[0.869s] -- Configuring done (0.9s)
+[0.895s] -- Generating done (0.0s)
+[0.897s] -- Build files have been written to: /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller
+[0.910s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller
+[0.911s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller -- -j16 -l16
+[0.956s] [ 20%] Running `/home/irman/micromamba/envs/ros2_env/bin/generate_parameter_library_cpp /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`
+[1.789s] [ 40%] Creating deprecated header file /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/include/joint_trajectory_controller_parameters.hpp
+[1.803s] [ 40%] Built target joint_trajectory_controller_parameters
+[1.821s] [ 80%] Building CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o
+[1.821s] [ 80%] Building CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o
+[23.027s] [100%] Linking CXX shared library libjoint_trajectory_controller.so
+[23.273s] [100%] Built target joint_trajectory_controller
+[23.283s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller -- -j16 -l16
+[23.290s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller
+[23.297s] -- Install configuration: ""
+[23.297s] -- Execute custom install script
+[23.297s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp
+[23.306s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp
+[23.312s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[23.319s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[23.326s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[23.333s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[23.341s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[23.348s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[23.356s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[23.363s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[23.370s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[23.377s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[23.385s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[23.391s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[23.397s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[23.404s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[23.411s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[23.419s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[23.425s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[23.434s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[23.441s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[23.448s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[23.455s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.462s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[23.469s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[23.475s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[23.483s] -- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[23.489s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[23.490s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[23.491s] -- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[23.492s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller

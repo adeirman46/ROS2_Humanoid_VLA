@@ -1,0 +1,34 @@
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/irman/ROS2_Humanoid_VLA/build/ros2_control_test_assets
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+-- Installing: /home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake

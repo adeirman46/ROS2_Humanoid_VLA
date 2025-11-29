@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000300] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000383] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000413] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000447] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000470] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000547] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000612] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000636] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000656] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000674] (-) JobUnselected: {'identifier': 'g1_controller'}
+[0.000732] (-) JobUnselected: {'identifier': 'g1_gazebo_sim'}
+[0.000744] (-) JobUnselected: {'identifier': 'g1_package'}
+[0.000752] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000759] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000767] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000774] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000782] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000790] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000801] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000809] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.000816] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000823] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.000830] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000837] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000844] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000851] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000858] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000865] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000872] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000880] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000887] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000893] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000901] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000908] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000915] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000922] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000930] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/irman/ROS2_Humanoid_VLA/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets'), ('hardware_interface', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface'), ('controller_interface', '/home/irman/ROS2_Humanoid_VLA/install/controller_interface'), ('hardware_interface_testing', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing'), ('controller_manager', '/home/irman/ROS2_Humanoid_VLA/install/controller_manager')])}
+[0.000961] (joint_trajectory_controller) JobStarted: {'identifier': 'joint_trajectory_controller'}
+[0.011240] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'cmake'}
+[0.011988] (joint_trajectory_controller) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '/home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[0.023919] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)\n'}
+[0.099382] (-) TimerEvent: {}
+[0.184315] (joint_trajectory_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.190300] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/home/irman/micromamba/envs/ros2_env/share/angles/cmake)\n'}
+[0.191400] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/home/irman/micromamba/envs/ros2_env/share/control_msgs/cmake)\n'}
+[0.199532] (-) TimerEvent: {}
+[0.216165] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)\n'}
+[0.218456] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)\n'}
+[0.224304] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)\n'}
+[0.235303] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.248955] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299612] (-) TimerEvent: {}
+[0.399787] (-) TimerEvent: {}
+[0.417632] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake)\n'}
+[0.481205] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)\n'}
+[0.482294] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499955] (-) TimerEvent: {}
+[0.600198] (-) TimerEvent: {}
+[0.633933] (joint_trajectory_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700298] (-) TimerEvent: {}
+[0.753548] (joint_trajectory_controller) StderrLine: {'line': b'CMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):\n'}
+[0.753764] (joint_trajectory_controller) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.753863] (joint_trajectory_controller) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.753935] (joint_trajectory_controller) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.754010] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[0.754100] (joint_trajectory_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.754175] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/filters/cmake/filtersConfig.cmake:41 (include)\n'}
+[0.754240] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.754308] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)\n'}
+[0.754374] (joint_trajectory_controller) StderrLine: {'line': b'  CMakeLists.txt:28 (find_package)\n'}
+[0.754413] (joint_trajectory_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.754442] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[0.771840] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)\n'}
+[0.800420] (-) TimerEvent: {}
+[0.869654] (joint_trajectory_controller) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.895652] (joint_trajectory_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.898157] (joint_trajectory_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller\n'}
+[0.900538] (-) TimerEvent: {}
+[0.910220] (joint_trajectory_controller) CommandEnded: {'returncode': 0}
+[0.911427] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'build'}
+[0.911477] (joint_trajectory_controller) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '--build', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller', '--', '-j16', '-l16'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[0.957230] (joint_trajectory_controller) StdoutLine: {'line': b'[ 20%] Running `/home/irman/micromamba/envs/ros2_env/bin/generate_parameter_library_cpp /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`\n'}
+[1.000687] (-) TimerEvent: {}
+[1.100870] (-) TimerEvent: {}
+[1.201027] (-) TimerEvent: {}
+[1.301226] (-) TimerEvent: {}
+[1.401467] (-) TimerEvent: {}
+[1.501746] (-) TimerEvent: {}
+[1.601988] (-) TimerEvent: {}
+[1.702236] (-) TimerEvent: {}
+[1.790314] (joint_trajectory_controller) StdoutLine: {'line': b'[ 40%] Creating deprecated header file /home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/include/joint_trajectory_controller_parameters.hpp\n'}
+[1.802407] (-) TimerEvent: {}
+[1.804347] (joint_trajectory_controller) StdoutLine: {'line': b'[ 40%] Built target joint_trajectory_controller_parameters\n'}
+[1.821902] (joint_trajectory_controller) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o\n'}
+[1.822035] (joint_trajectory_controller) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o\n'}
+[1.902495] (-) TimerEvent: {}
+[2.002650] (-) TimerEvent: {}
+[2.102904] (-) TimerEvent: {}
+[2.203329] (-) TimerEvent: {}
+[2.303632] (-) TimerEvent: {}
+[2.403892] (-) TimerEvent: {}
+[2.504211] (-) TimerEvent: {}
+[2.604519] (-) TimerEvent: {}
+[2.704721] (-) TimerEvent: {}
+[2.804912] (-) TimerEvent: {}
+[2.905282] (-) TimerEvent: {}
+[3.005529] (-) TimerEvent: {}
+[3.105735] (-) TimerEvent: {}
+[3.205937] (-) TimerEvent: {}
+[3.306213] (-) TimerEvent: {}
+[3.406517] (-) TimerEvent: {}
+[3.506736] (-) TimerEvent: {}
+[3.607028] (-) TimerEvent: {}
+[3.707351] (-) TimerEvent: {}
+[3.807550] (-) TimerEvent: {}
+[3.907737] (-) TimerEvent: {}
+[4.008032] (-) TimerEvent: {}
+[4.108361] (-) TimerEvent: {}
+[4.208578] (-) TimerEvent: {}
+[4.308785] (-) TimerEvent: {}
+[4.409091] (-) TimerEvent: {}
+[4.509380] (-) TimerEvent: {}
+[4.609604] (-) TimerEvent: {}
+[4.709792] (-) TimerEvent: {}
+[4.810167] (-) TimerEvent: {}
+[4.910411] (-) TimerEvent: {}
+[5.010627] (-) TimerEvent: {}
+[5.110932] (-) TimerEvent: {}
+[5.211268] (-) TimerEvent: {}
+[5.311513] (-) TimerEvent: {}
+[5.411703] (-) TimerEvent: {}
+[5.511977] (-) TimerEvent: {}
+[5.612400] (-) TimerEvent: {}
+[5.712606] (-) TimerEvent: {}
+[5.812833] (-) TimerEvent: {}
+[5.913148] (-) TimerEvent: {}
+[6.013435] (-) TimerEvent: {}
+[6.113687] (-) TimerEvent: {}
+[6.213899] (-) TimerEvent: {}
+[6.314132] (-) TimerEvent: {}
+[6.414356] (-) TimerEvent: {}
+[6.514552] (-) TimerEvent: {}
+[6.614844] (-) TimerEvent: {}
+[6.715197] (-) TimerEvent: {}
+[6.815427] (-) TimerEvent: {}
+[6.915613] (-) TimerEvent: {}
+[7.015867] (-) TimerEvent: {}
+[7.116137] (-) TimerEvent: {}
+[7.216346] (-) TimerEvent: {}
+[7.316579] (-) TimerEvent: {}
+[7.416829] (-) TimerEvent: {}
+[7.517058] (-) TimerEvent: {}
+[7.617268] (-) TimerEvent: {}
+[7.717485] (-) TimerEvent: {}
+[7.817780] (-) TimerEvent: {}
+[7.918112] (-) TimerEvent: {}
+[8.018332] (-) TimerEvent: {}
+[8.118572] (-) TimerEvent: {}
+[8.218804] (-) TimerEvent: {}
+[8.318995] (-) TimerEvent: {}
+[8.419164] (-) TimerEvent: {}
+[8.519440] (-) TimerEvent: {}
+[8.619804] (-) TimerEvent: {}
+[8.720003] (-) TimerEvent: {}
+[8.820238] (-) TimerEvent: {}
+[8.920729] (-) TimerEvent: {}
+[9.021186] (-) TimerEvent: {}
+[9.121384] (-) TimerEvent: {}
+[9.221644] (-) TimerEvent: {}
+[9.322049] (-) TimerEvent: {}
+[9.423106] (-) TimerEvent: {}
+[9.523277] (-) TimerEvent: {}
+[9.623521] (-) TimerEvent: {}
+[9.723764] (-) TimerEvent: {}
+[9.823964] (-) TimerEvent: {}
+[9.924108] (-) TimerEvent: {}
+[10.024413] (-) TimerEvent: {}
+[10.124691] (-) TimerEvent: {}
+[10.224897] (-) TimerEvent: {}
+[10.325083] (-) TimerEvent: {}
+[10.425354] (-) TimerEvent: {}
+[10.525590] (-) TimerEvent: {}
+[10.625821] (-) TimerEvent: {}
+[10.726181] (-) TimerEvent: {}
+[10.826431] (-) TimerEvent: {}
+[10.926714] (-) TimerEvent: {}
+[11.026910] (-) TimerEvent: {}
+[11.127194] (-) TimerEvent: {}
+[11.227427] (-) TimerEvent: {}
+[11.327660] (-) TimerEvent: {}
+[11.427862] (-) TimerEvent: {}
+[11.528121] (-) TimerEvent: {}
+[11.628400] (-) TimerEvent: {}
+[11.728681] (-) TimerEvent: {}
+[11.828991] (-) TimerEvent: {}
+[11.929333] (-) TimerEvent: {}
+[12.029637] (-) TimerEvent: {}
+[12.129850] (-) TimerEvent: {}
+[12.230092] (-) TimerEvent: {}
+[12.330395] (-) TimerEvent: {}
+[12.430691] (-) TimerEvent: {}
+[12.530906] (-) TimerEvent: {}
+[12.631210] (-) TimerEvent: {}
+[12.731613] (-) TimerEvent: {}
+[12.831921] (-) TimerEvent: {}
+[12.932107] (-) TimerEvent: {}
+[13.032394] (-) TimerEvent: {}
+[13.132747] (-) TimerEvent: {}
+[13.232968] (-) TimerEvent: {}
+[13.333211] (-) TimerEvent: {}
+[13.433523] (-) TimerEvent: {}
+[13.533818] (-) TimerEvent: {}
+[13.634016] (-) TimerEvent: {}
+[13.734306] (-) TimerEvent: {}
+[13.834676] (-) TimerEvent: {}
+[13.934924] (-) TimerEvent: {}
+[14.035480] (-) TimerEvent: {}
+[14.135765] (-) TimerEvent: {}
+[14.236215] (-) TimerEvent: {}
+[14.336548] (-) TimerEvent: {}
+[14.436773] (-) TimerEvent: {}
+[14.536994] (-) TimerEvent: {}
+[14.637233] (-) TimerEvent: {}
+[14.737479] (-) TimerEvent: {}
+[14.837669] (-) TimerEvent: {}
+[14.938018] (-) TimerEvent: {}
+[15.038339] (-) TimerEvent: {}
+[15.138556] (-) TimerEvent: {}
+[15.238862] (-) TimerEvent: {}
+[15.339151] (-) TimerEvent: {}
+[15.439374] (-) TimerEvent: {}
+[15.539587] (-) TimerEvent: {}
+[15.639854] (-) TimerEvent: {}
+[15.740125] (-) TimerEvent: {}
+[15.840355] (-) TimerEvent: {}
+[15.940573] (-) TimerEvent: {}
+[16.040852] (-) TimerEvent: {}
+[16.141169] (-) TimerEvent: {}
+[16.241384] (-) TimerEvent: {}
+[16.341650] (-) TimerEvent: {}
+[16.441981] (-) TimerEvent: {}
+[16.542295] (-) TimerEvent: {}
+[16.642494] (-) TimerEvent: {}
+[16.742705] (-) TimerEvent: {}
+[16.843006] (-) TimerEvent: {}
+[16.943318] (-) TimerEvent: {}
+[17.043486] (-) TimerEvent: {}
+[17.143742] (-) TimerEvent: {}
+[17.244027] (-) TimerEvent: {}
+[17.344247] (-) TimerEvent: {}
+[17.444508] (-) TimerEvent: {}
+[17.544780] (-) TimerEvent: {}
+[17.645060] (-) TimerEvent: {}
+[17.745277] (-) TimerEvent: {}
+[17.845475] (-) TimerEvent: {}
+[17.945727] (-) TimerEvent: {}
+[18.045919] (-) TimerEvent: {}
+[18.146148] (-) TimerEvent: {}
+[18.246419] (-) TimerEvent: {}
+[18.346686] (-) TimerEvent: {}
+[18.446852] (-) TimerEvent: {}
+[18.547138] (-) TimerEvent: {}
+[18.647462] (-) TimerEvent: {}
+[18.747774] (-) TimerEvent: {}
+[18.847988] (-) TimerEvent: {}
+[18.948216] (-) TimerEvent: {}
+[19.048542] (-) TimerEvent: {}
+[19.148855] (-) TimerEvent: {}
+[19.249078] (-) TimerEvent: {}
+[19.349377] (-) TimerEvent: {}
+[19.449670] (-) TimerEvent: {}
+[19.549966] (-) TimerEvent: {}
+[19.650147] (-) TimerEvent: {}
+[19.750361] (-) TimerEvent: {}
+[19.850649] (-) TimerEvent: {}
+[19.950938] (-) TimerEvent: {}
+[20.051171] (-) TimerEvent: {}
+[20.151370] (-) TimerEvent: {}
+[20.251573] (-) TimerEvent: {}
+[20.351798] (-) TimerEvent: {}
+[20.452019] (-) TimerEvent: {}
+[20.552373] (-) TimerEvent: {}
+[20.652671] (-) TimerEvent: {}
+[20.752901] (-) TimerEvent: {}
+[20.853151] (-) TimerEvent: {}
+[20.953466] (-) TimerEvent: {}
+[21.053787] (-) TimerEvent: {}
+[21.154081] (-) TimerEvent: {}
+[21.254395] (-) TimerEvent: {}
+[21.354761] (-) TimerEvent: {}
+[21.454984] (-) TimerEvent: {}
+[21.555235] (-) TimerEvent: {}
+[21.655471] (-) TimerEvent: {}
+[21.755751] (-) TimerEvent: {}
+[21.855939] (-) TimerEvent: {}
+[21.956100] (-) TimerEvent: {}
+[22.056343] (-) TimerEvent: {}
+[22.156618] (-) TimerEvent: {}
+[22.256814] (-) TimerEvent: {}
+[22.357025] (-) TimerEvent: {}
+[22.457348] (-) TimerEvent: {}
+[22.557636] (-) TimerEvent: {}
+[22.657825] (-) TimerEvent: {}
+[22.758003] (-) TimerEvent: {}
+[22.858313] (-) TimerEvent: {}
+[22.958663] (-) TimerEvent: {}
+[23.028178] (joint_trajectory_controller) StdoutLine: {'line': b'[100%] Linking CXX shared library libjoint_trajectory_controller.so\n'}
+[23.058835] (-) TimerEvent: {}
+[23.159168] (-) TimerEvent: {}
+[23.259451] (-) TimerEvent: {}
+[23.273586] (joint_trajectory_controller) StdoutLine: {'line': b'[100%] Built target joint_trajectory_controller\n'}
+[23.282965] (joint_trajectory_controller) CommandEnded: {'returncode': 0}
+[23.283879] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'install'}
+[23.290162] (joint_trajectory_controller) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '--install', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/ROS2_Humanoid_VLA/install/hardware_interface_testing:/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets:/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[23.297352] (joint_trajectory_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.297687] (joint_trajectory_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.298031] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp\n'}
+[23.306817] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp\n'}
+[23.312717] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml\n'}
+[23.319385] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp\n'}
+[23.327080] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp\n'}
+[23.333446] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp\n'}
+[23.341868] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp\n'}
+[23.348494] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp\n'}
+[23.356592] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h\n'}
+[23.359540] (-) TimerEvent: {}
+[23.363629] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller\n'}
+[23.370467] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller\n'}
+[23.377566] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh\n'}
+[23.385887] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv\n'}
+[23.391871] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh\n'}
+[23.397884] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv\n'}
+[23.405298] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash\n'}
+[23.411997] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh\n'}
+[23.419910] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh\n'}
+[23.426284] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv\n'}
+[23.434390] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv\n'}
+[23.441571] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller\n'}
+[23.448678] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller\n'}
+[23.456122] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.459644] (-) TimerEvent: {}
+[23.462885] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.469754] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake\n'}
+[23.475482] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake\n'}
+[23.484049] (joint_trajectory_controller) StdoutLine: {'line': b'-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml\n'}
+[23.489571] (joint_trajectory_controller) StdoutLine: {'line': b'-- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so\n'}
+[23.491308] (joint_trajectory_controller) StdoutLine: {'line': b'-- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake\n'}
+[23.491567] (joint_trajectory_controller) StdoutLine: {'line': b'-- Installing: /home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake\n'}
+[23.492906] (joint_trajectory_controller) CommandEnded: {'returncode': 0}
+[23.520805] (joint_trajectory_controller) JobEnded: {'identifier': 'joint_trajectory_controller', 'rc': 0}
+[23.521453] (-) EventReactorShutdown: {}

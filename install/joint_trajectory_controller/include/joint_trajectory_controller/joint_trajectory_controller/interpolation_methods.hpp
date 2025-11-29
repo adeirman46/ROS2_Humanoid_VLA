@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/interpolation_methods.hpp

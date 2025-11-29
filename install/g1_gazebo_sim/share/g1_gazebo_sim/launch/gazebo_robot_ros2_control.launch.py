@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/g1_gazebo_sim/launch/gazebo_robot_ros2_control.launch.py

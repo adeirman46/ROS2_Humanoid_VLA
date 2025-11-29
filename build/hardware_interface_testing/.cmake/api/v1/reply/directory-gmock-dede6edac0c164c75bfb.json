@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gmock",
+		"source" : "/home/irman/micromamba/envs/ros2_env/src/gmock_vendor"
+	}
+}

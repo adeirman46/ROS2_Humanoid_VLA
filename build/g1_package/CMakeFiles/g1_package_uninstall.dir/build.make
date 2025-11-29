@@ -53,10 +53,10 @@ RM = /home/irman/micromamba/envs/ros2_env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/irman/Documents/HUMA/ws_g1/g1_package
+CMAKE_SOURCE_DIR = /home/irman/ROS2_Humanoid_VLA/g1_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/irman/Documents/HUMA/ws_g1/build/g1_package
+CMAKE_BINARY_DIR = /home/irman/ROS2_Humanoid_VLA/build/g1_package
 
 # Utility rule file for g1_package_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/g1_package_uninstall.dir/compiler_depend.make
 include CMakeFiles/g1_package_uninstall.dir/progress.make
 
 CMakeFiles/g1_package_uninstall:
-	/home/irman/micromamba/envs/ros2_env/bin/cmake -P /home/irman/Documents/HUMA/ws_g1/build/g1_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/home/irman/micromamba/envs/ros2_env/bin/cmake -P /home/irman/ROS2_Humanoid_VLA/build/g1_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/g1_package_uninstall.dir/codegen:
 .PHONY : CMakeFiles/g1_package_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/g1_package_uninstall.dir/clean:
 .PHONY : CMakeFiles/g1_package_uninstall.dir/clean
 
 CMakeFiles/g1_package_uninstall.dir/depend:
-	cd /home/irman/Documents/HUMA/ws_g1/build/g1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irman/Documents/HUMA/ws_g1/g1_package /home/irman/Documents/HUMA/ws_g1/g1_package /home/irman/Documents/HUMA/ws_g1/build/g1_package /home/irman/Documents/HUMA/ws_g1/build/g1_package /home/irman/Documents/HUMA/ws_g1/build/g1_package/CMakeFiles/g1_package_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/irman/ROS2_Humanoid_VLA/build/g1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irman/ROS2_Humanoid_VLA/g1_package /home/irman/ROS2_Humanoid_VLA/g1_package /home/irman/ROS2_Humanoid_VLA/build/g1_package /home/irman/ROS2_Humanoid_VLA/build/g1_package /home/irman/ROS2_Humanoid_VLA/build/g1_package/CMakeFiles/g1_package_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/g1_package_uninstall.dir/depend
 

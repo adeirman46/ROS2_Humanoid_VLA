@@ -1,0 +1,11 @@
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/uninstall.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/joint_trajectory_controller_uninstall.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/joint_trajectory_controller_parameters.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/joint_trajectory_controller.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/test.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/edit_cache.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/rebuild_cache.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/list_install_components.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/install.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/install/local.dir
+/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller/CMakeFiles/install/strip.dir

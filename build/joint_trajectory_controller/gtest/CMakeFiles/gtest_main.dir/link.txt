@@ -1,0 +1,2 @@
+/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar qc libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib libgtest_main.a

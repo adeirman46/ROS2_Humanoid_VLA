@@ -1,0 +1,4 @@
+[0.011s] Invoking command in '/home/irman/ROS2_Humanoid_VLA/build/g1_controller': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/g1_controller -- -j16 -l16
+[0.036s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/ament_cmake_python_copy_g1_controller.dir/all] Interrupt
+[0.037s] make: *** [Makefile:146: all] Interrupt
+[0.038s] Invoked command in '/home/irman/ROS2_Humanoid_VLA/build/g1_controller' returned '-2': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/ROS2_Humanoid_VLA/build/g1_controller -- -j16 -l16

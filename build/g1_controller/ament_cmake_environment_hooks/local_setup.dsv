@@ -1,0 +1,3 @@
+source;share/g1_controller/environment/ament_prefix_path.sh
+source;share/g1_controller/environment/path.sh
+source;share/g1_controller/environment/pythonpath.sh

@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/ament_cmake_core/g1_controllerConfig.cmake

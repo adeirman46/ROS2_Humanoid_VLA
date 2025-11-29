@@ -1,0 +1,13 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+failed to create symbolic link '/home/irman/ROS2_Humanoid_VLA/build/g1_controller/ament_cmake_python/g1_controller/g1_controller' because existing path cannot be removed: Is a directory
+make[2]: *** [CMakeFiles/ament_cmake_python_symlink_g1_controller.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_g1_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/ament_cmake_python_symlink_g1_controller.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

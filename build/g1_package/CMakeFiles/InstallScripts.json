@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/irman/Documents/HUMA/ws_g1/build/g1_package/cmake_install.cmake"
+		"/home/irman/ROS2_Humanoid_VLA/build/g1_package/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

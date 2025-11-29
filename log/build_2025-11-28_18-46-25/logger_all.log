@@ -1,0 +1,109 @@
+[0.089s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/irman/micromamba/envs/ros2_env/bin/colcon', 'build', '--packages-select', 'g1_package'][0m
+[0.089s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['g1_package'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7338748288d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73387484bbd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73387484bbd0>>)[0m
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.112s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/irman/ROS2_Humanoid_VLA'
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.112s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extension 'ignore'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extension 'ignore_ament_install'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extensions ['colcon_pkg']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extension 'colcon_pkg'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extensions ['colcon_meta']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extension 'colcon_meta'
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extensions ['ros']
+[0.128s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_gazebo_sim) by extension 'ros'
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'g1_gazebo_sim' with type 'ros.ament_cmake' and name 'g1_gazebo_sim'[0m
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extension 'ignore'
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extension 'ignore_ament_install'
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extensions ['colcon_pkg']
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extension 'colcon_pkg'
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extensions ['colcon_meta']
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extension 'colcon_meta'
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extensions ['ros']
+[0.130s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(g1_package) by extension 'ros'
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'g1_package' with type 'ros.ament_cmake' and name 'g1_package'[0m
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.131s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.131s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.131s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.131s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.131s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.131s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.141s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'g1_gazebo_sim' in 'g1_gazebo_sim'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_args' from command line to 'None'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_target' from command line to 'None'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'g1_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.141s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'g1_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/ROS2_Humanoid_VLA/build/g1_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/ROS2_Humanoid_VLA/install/g1_package', 'merge_install': False, 'path': '/home/irman/ROS2_Humanoid_VLA/g1_package', 'symlink_install': False, 'test_result_base': None}[0m
+[0.142s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.142s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.143s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/irman/ROS2_Humanoid_VLA/g1_package' with build type 'ament_cmake'
+[0.143s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/irman/ROS2_Humanoid_VLA/g1_package'
+[0.144s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.144s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.159s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/irman/ROS2_Humanoid_VLA/build/g1_package': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/g1_package -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/g1_package[0m
+[0.167s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/irman/ROS2_Humanoid_VLA/build/g1_package' returned '1': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/ROS2_Humanoid_VLA/g1_package -DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/g1_package[0m
+[0.168s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(g1_package)
+[0.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package' for CMake module files
+[0.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package' for CMake config files
+[0.170s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('g1_package', 'cmake_prefix_path')
+[0.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/hook/cmake_prefix_path.ps1'
+[0.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/hook/cmake_prefix_path.dsv'
+[0.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/hook/cmake_prefix_path.sh'
+[0.171s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package/bin'
+[0.171s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package/lib/pkgconfig/g1_package.pc'
+[0.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package/lib/python3.11/site-packages'
+[0.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/ROS2_Humanoid_VLA/install/g1_package/bin'
+[0.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/package.ps1'
+[0.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/package.dsv'
+[0.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/package.sh'
+[0.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/package.bash'
+[0.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/g1_package/package.zsh'
+[0.174s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/irman/ROS2_Humanoid_VLA/install/g1_package/share/colcon-core/packages/g1_package)
+[0.184s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.185s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.185s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[0.185s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.185s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/ROS2_Humanoid_VLA/install/local_setup.ps1'
+[0.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/irman/ROS2_Humanoid_VLA/install/_local_setup_util_ps1.py'
+[0.187s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/ROS2_Humanoid_VLA/install/setup.ps1'
+[0.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/ROS2_Humanoid_VLA/install/local_setup.sh'
+[0.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/irman/ROS2_Humanoid_VLA/install/_local_setup_util_sh.py'
+[0.189s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/ROS2_Humanoid_VLA/install/setup.sh'
+[0.189s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/ROS2_Humanoid_VLA/install/local_setup.bash'
+[0.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/ROS2_Humanoid_VLA/install/setup.bash'
+[0.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/ROS2_Humanoid_VLA/install/local_setup.zsh'
+[0.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/ROS2_Humanoid_VLA/install/setup.zsh'

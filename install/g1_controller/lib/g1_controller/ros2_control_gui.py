@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/g1_controller/scripts/ros2_control_gui.py

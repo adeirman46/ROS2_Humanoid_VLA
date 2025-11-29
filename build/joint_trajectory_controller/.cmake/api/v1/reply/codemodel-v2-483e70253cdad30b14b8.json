@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebf7f905649d2427e78d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "joint_trajectory_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_trajectory_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_trajectory_controller-6c06306a142f87a7da24.json",
+					"name" : "joint_trajectory_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_trajectory_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_trajectory_controller_parameters-f20ffd4727e9f7e48d2f.json",
+					"name" : "joint_trajectory_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_trajectory_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_trajectory_controller_uninstall-1e00a635f0ca5a56897b.json",
+					"name" : "joint_trajectory_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9005514399756ab64b2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller",
+		"source" : "/home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

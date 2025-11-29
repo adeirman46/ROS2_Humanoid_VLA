@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/build/hardware_interface_testing/ament_cmake_core/hardware_interface_testingConfig-version.cmake

@@ -1,0 +1,627 @@
+[0.000000] (-) TimerEvent: {}
+[0.000493] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000539] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000564] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000762] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000788] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000843] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000900] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000930] (-) JobUnselected: {'identifier': 'g1_controller'}
+[0.000941] (-) JobUnselected: {'identifier': 'g1_gazebo_sim'}
+[0.000949] (-) JobUnselected: {'identifier': 'g1_package'}
+[0.000957] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000965] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000976] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000984] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.000991] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000998] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.001006] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.001013] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.001020] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.001037] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.001046] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001054] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001061] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001068] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001075] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001091] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict()}
+[0.001105] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.001114] (joint_state_broadcaster) JobStarted: {'identifier': 'joint_state_broadcaster'}
+[0.005433] (joint_trajectory_controller) JobStarted: {'identifier': 'joint_trajectory_controller'}
+[0.008431] (joint_state_broadcaster) JobProgress: {'identifier': 'joint_state_broadcaster', 'progress': 'cmake'}
+[0.008832] (joint_state_broadcaster) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '/home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_state_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_state_broadcaster'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib::/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[0.010660] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'cmake'}
+[0.011148] (joint_trajectory_controller) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '/home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_trajectory_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/irman/ROS2_Humanoid_VLA/install/joint_trajectory_controller'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib::/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_trajectory_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[0.099679] (-) TimerEvent: {}
+[0.158680] (joint_trajectory_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 14.3.0\n'}
+[0.168821] (joint_state_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 14.3.0\n'}
+[0.171199] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.180193] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199775] (-) TimerEvent: {}
+[0.273007] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.282229] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.290413] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped\n'}
+[0.290613] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.291057] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299882] (-) TimerEvent: {}
+[0.300696] (joint_state_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped\n'}
+[0.301075] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301603] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.307167] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)\n'}
+[0.317943] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)\n'}
+[0.399980] (-) TimerEvent: {}
+[0.412031] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter\n'}
+[0.428452] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter\n'}
+[0.476922] (joint_trajectory_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.494461] (joint_state_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500082] (-) TimerEvent: {}
+[0.573006] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/home/irman/micromamba/envs/ros2_env/share/angles/cmake)\n'}
+[0.580088] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/home/irman/micromamba/envs/ros2_env/share/builtin_interfaces/cmake)\n'}
+[0.580262] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/home/irman/micromamba/envs/ros2_env/share/control_msgs/cmake)\n'}
+[0.600174] (-) TimerEvent: {}
+[0.651675] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)\n'}
+[0.651982] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)\n'}
+[0.664709] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)\n'}
+[0.664832] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)\n'}
+[0.683206] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)\n'}
+[0.683333] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)\n'}
+[0.700352] (-) TimerEvent: {}
+[0.708130] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.708429] (joint_state_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.742944] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.743120] (joint_state_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.775105] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/home/irman/micromamba/envs/ros2_env/share/control_msgs/cmake)\n'}
+[0.800410] (-) TimerEvent: {}
+[0.900679] (-) TimerEvent: {}
+[0.988971] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)\n'}
+[0.989202] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake)\n'}
+[1.000765] (-) TimerEvent: {}
+[1.053981] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2\n'}
+[1.100959] (-) TimerEvent: {}
+[1.112112] (joint_trajectory_controller) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.155855] (joint_state_broadcaster) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.201076] (-) TimerEvent: {}
+[1.212363] (joint_trajectory_controller) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.253628] (joint_state_broadcaster) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.301236] (-) TimerEvent: {}
+[1.401400] (-) TimerEvent: {}
+[1.501645] (-) TimerEvent: {}
+[1.509218] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)\n'}
+[1.517211] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.543246] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)\n'}
+[1.549809] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.601859] (-) TimerEvent: {}
+[1.602953] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2\n'}
+[1.701906] (-) TimerEvent: {}
+[1.802081] (-) TimerEvent: {}
+[1.902718] (-) TimerEvent: {}
+[1.981988] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found OpenSSL: /home/irman/micromamba/envs/ros2_env/lib/libcrypto.so (found version "3.5.4")\n'}
+[1.995554] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /home/irman/micromamba/envs/ros2_env/lib/libcrypto.so (found version "3.5.4")\n'}
+[1.999795] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2\n'}
+[2.002741] (-) TimerEvent: {}
+[2.029270] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found FastRTPS: /home/irman/micromamba/envs/ros2_env/include\n'}
+[2.040391] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /home/irman/micromamba/envs/ros2_env/include\n'}
+[2.045852] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2\n'}
+[2.075000] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2\n'}
+[2.095595] (joint_trajectory_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.102867] (-) TimerEvent: {}
+[2.105726] (joint_state_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.113813] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.120949] (joint_state_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.203011] (-) TimerEvent: {}
+[2.216092] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.216261] (joint_state_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.216880] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.217667] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.303134] (-) TimerEvent: {}
+[2.323824] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/home/irman/micromamba/envs/ros2_env/share/generate_parameter_library/cmake)\n'}
+[2.329147] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/home/irman/micromamba/envs/ros2_env/share/parameter_traits/cmake)\n'}
+[2.362901] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/home/irman/micromamba/envs/ros2_env/share/realtime_tools/cmake)\n'}
+[2.401683] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gmock/cmake)\n'}
+[2.403193] (-) TimerEvent: {}
+[2.407766] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_manager/cmake)\n'}
+[2.419957] (joint_trajectory_controller) StderrLine: {'line': b'CMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):\n'}
+[2.420114] (joint_trajectory_controller) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.420193] (joint_trajectory_controller) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.420250] (joint_trajectory_controller) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.420408] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.420494] (joint_trajectory_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.420545] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/filters/cmake/filtersConfig.cmake:41 (include)\n'}
+[2.420592] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.420640] (joint_trajectory_controller) StderrLine: {'line': b'  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)\n'}
+[2.420688] (joint_trajectory_controller) StderrLine: {'line': b'  CMakeLists.txt:28 (find_package)\n'}
+[2.420731] (joint_trajectory_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.420787] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.457047] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/ros2_control_test_assets/cmake)\n'}
+[2.466029] (joint_state_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/home/irman/micromamba/envs/ros2_env/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[2.476694] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)\n'}
+[2.503308] (-) TimerEvent: {}
+[2.509730] (joint_state_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 14.3.0\n'}
+[2.511538] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gmock/cmake)\n'}
+[2.516647] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_manager/cmake)\n'}
+[2.519400] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.558938] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/ros2_control_test_assets/cmake)\n'}
+[2.565264] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gmock sources under '/home/irman/micromamba/envs/ros2_env/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[2.597034] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.603388] (-) TimerEvent: {}
+[2.609284] (joint_trajectory_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 14.3.0\n'}
+[2.614047] (joint_state_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped\n'}
+[2.614405] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.615119] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.619294] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.624055] (joint_state_broadcaster) StderrLine: {'line': b'CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[2.624181] (joint_state_broadcaster) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.624221] (joint_state_broadcaster) StderrLine: {'line': b'  CMake.\n'}
+[2.624258] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.624291] (joint_state_broadcaster) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.624342] (joint_state_broadcaster) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.624406] (joint_state_broadcaster) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.624456] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.624504] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.636173] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gtest/cmake)\n'}
+[2.638739] (joint_state_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/home/irman/micromamba/envs/ros2_env/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.643246] (joint_state_broadcaster) StderrLine: {'line': b'CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[2.643341] (joint_state_broadcaster) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.643392] (joint_state_broadcaster) StderrLine: {'line': b'  CMake.\n'}
+[2.643427] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.643462] (joint_state_broadcaster) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.643493] (joint_state_broadcaster) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.643521] (joint_state_broadcaster) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.643555] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.643586] (joint_state_broadcaster) StderrLine: {'line': b'\n'}
+[2.698668] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.703489] (-) TimerEvent: {}
+[2.716228] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped\n'}
+[2.716654] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.716838] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.725494] (joint_trajectory_controller) StderrLine: {'line': b'CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[2.725677] (joint_trajectory_controller) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.725765] (joint_trajectory_controller) StderrLine: {'line': b'  CMake.\n'}
+[2.725841] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.725912] (joint_trajectory_controller) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.725977] (joint_trajectory_controller) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.726063] (joint_trajectory_controller) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.726133] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.726208] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.734595] (joint_state_broadcaster) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.735660] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gtest/cmake)\n'}
+[2.737423] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gtest sources under '/home/irman/micromamba/envs/ros2_env/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.741416] (joint_trajectory_controller) StderrLine: {'line': b'CMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[2.741562] (joint_trajectory_controller) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.741656] (joint_trajectory_controller) StderrLine: {'line': b'  CMake.\n'}
+[2.741728] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.741836] (joint_trajectory_controller) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.741941] (joint_trajectory_controller) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.742041] (joint_trajectory_controller) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.742135] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.742227] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.803581] (-) TimerEvent: {}
+[2.826055] (joint_trajectory_controller) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[2.841878] (joint_state_broadcaster) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.849531] (joint_state_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster\n'}
+[2.863572] (joint_state_broadcaster) CommandEnded: {'returncode': 0}
+[2.864743] (joint_state_broadcaster) JobProgress: {'identifier': 'joint_state_broadcaster', 'progress': 'build'}
+[2.865365] (joint_state_broadcaster) Command: {'cmd': ['/home/irman/micromamba/envs/ros2_env/bin/cmake', '--build', '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster', '--', '-j16', '-l16'], 'cwd': '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/irman'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(ros2_env)'), ('USER', 'irman'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('CONDA_MKL_INTERFACE_LAYER_BACKUP', ''), ('CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('GCC_RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'), ('XDG_SESSION_TYPE', 'x11'), ('OBJCOPY', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objcopy'), ('DEBUG_CXXFLAGS', '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ROS_ETC_DIR', '/home/irman/micromamba/envs/ros2_env/etc/ros'), ('SIZE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-size'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib::/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LESS', '-R'), ('HOME', '/home/irman'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/irman/ROS2_Humanoid_VLA'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '*.azureedge.net'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('CONDA_TOOLCHAIN_BUILD', 'x86_64-conda-linux-gnu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ef3884ed-1.10-main.sock'), ('ZSH', '/home/irman/.oh-my-zsh'), ('F90', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LDFLAGS', '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/irman/micromamba/envs/ros2_env/lib -Wl,-rpath-link,/home/irman/micromamba/envs/ros2_env/lib -L/home/irman/micromamba/envs/ros2_env/lib'), ('PAGER', 'less'), ('FC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('STRINGS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strings'), ('CPL_ZIP_ENCODING', 'UTF-8'), ('MANAGERPID', '2813'), ('SYSTEMD_EXEC_PID', '3299'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('CPP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4201'), ('F77', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('F95', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-f95'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('ELFEDIT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-elfedit'), ('STRIP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'irman'), ('GCC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc'), ('JOURNAL_STREAM', '9:16057'), ('_', '/home/irman/micromamba/envs/ros2_env/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('READELF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-readelf'), ('XDG_SESSION_CLASS', 'user'), ('AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar'), ('USERNAME', 'irman'), ('GXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++'), ('FC_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('AS', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-as'), ('GAZEBO_MODEL_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('CXXFILT', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++filt'), ('ROS_OS_OVERRIDE', 'conda:linux'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('BUILD', 'x86_64-conda-linux-gnu'), ('OGRE_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/lib/OGRE'), ('PATH', '/home/irman/micromamba/envs/ros2_env/share/rubygems/bin:/home/irman/micromamba/envs/ros2_env/bin:/home/irman/.npm-global/bin:/home/irman/micromamba/condabin:/home/irman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/irman:@/tmp/.ICE-unix/3255,unix/irman:/tmp/.ICE-unix/3255'), ('INVOCATION_ID', 'cf68c27b3909444099e6fd1ca5b90251'), ('PROJ_NETWORK', 'ON'), ('XDG_MENU_PREFIX', 'gnome-'), ('build_alias', 'x86_64-conda-linux-gnu'), ('PROJ_DATA', '/home/irman/micromamba/envs/ros2_env/share/proj'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('MAMBA_ROOT_PREFIX', '/home/irman/micromamba'), ('GCC_AR', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('DEBUG_CFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MESON_ARGS', '-Dbuildtype=release'), ('SBX_CHROME_API_RQ', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/irman/micromamba/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/irman/micromamba/envs/ros2_env/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env'), ('CPPFLAGS', '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/irman/micromamba/envs/ros2_env/include'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('DEBUG_FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CMAKE_ARGS', '-DCMAKE_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'), ('HOST', 'x86_64-conda-linux-gnu'), ('GDAL_DRIVER_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gdalplugins'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CXX', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('DEBUG_CPPFLAGS', '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/irman/micromamba/envs/ros2_env/include'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/irman/micromamba/envs/ros2_env/share/rubygems/'), ('DEBUG_FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe'), ('CONDA_DEFAULT_ENV', 'ros2_env'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/irman/micromamba/envs/ros2_env/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ADDR2LINE', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-addr2line'), ('MAMBA_EXE', '/home/irman/.local/bin/micromamba'), ('GCC_NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm'), ('GFORTRAN', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gfortran'), ('CONDA_BUILD_SYSROOT', '/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('VSCODE_CODE_CACHE_PATH', '/home/irman/.config/Antigravity/CachedData/afdb915a7890576374cec17dccf6d91249170a86'), ('GAZEBO_PLUGIN_PATH', '/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins:'), ('LD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irman/micromamba/envs/ros2_env/lib/python311/site-packages:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages'), ('GPROF', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-gprof'), ('CONDA_PREFIX', '/home/irman/micromamba/envs/ros2_env'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('CONDA_TOOLCHAIN_HOST', 'x86_64-conda-linux-gnu'), ('host_alias', 'x86_64-conda-linux-gnu'), ('FORTRANFLAGS', '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/irman/micromamba/envs/ros2_env/include -I/home/irman/micromamba/envs/ros2_env/include'), ('CC', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc'), ('RANLIB', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib'), ('MKL_INTERFACE_LAYER', 'LP64,GNU'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CXX_FOR_BUILD', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++'), ('CMAKE_PREFIX_PATH', '/home/irman/micromamba/envs/ros2_env:/home/irman/micromamba/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr'), ('VSCODE_PID', '4201'), ('NM', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-nm'), ('GDAL_DATA', '/home/irman/micromamba/envs/ros2_env/share/gdal'), ('OBJDUMP', '/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-objdump')]), 'shell': False}
+[2.903699] (-) TimerEvent: {}
+[2.906069] (joint_state_broadcaster) StdoutLine: {'line': b'[ 23%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\n'}
+[2.906200] (joint_state_broadcaster) StdoutLine: {'line': b'[ 23%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\n'}
+[2.906249] (joint_state_broadcaster) StdoutLine: {'line': b'[ 23%] Building CXX object gmock/CMakeFiles/gmock.dir/home/irman/micromamba/envs/ros2_env/src/gtest_vendor/src/gtest-all.cc.o\n'}
+[2.906385] (joint_state_broadcaster) StdoutLine: {'line': b'[ 30%] Running `/home/irman/micromamba/envs/ros2_env/bin/generate_parameter_library_cpp /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `\n'}
+[2.920216] (joint_trajectory_controller) StderrLine: {'line': b'CMake Error at CMakeLists.txt:74 (target_link_libraries):\n'}
+[2.920420] (joint_trajectory_controller) StderrLine: {'line': b'  Target "test_trajectory_controller" links to:\n'}
+[2.920518] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.920635] (joint_trajectory_controller) StderrLine: {'line': b'    ros2_control_test_assets::ros2_control_test_assets\n'}
+[2.920734] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.920775] (joint_trajectory_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[2.920811] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.920852] (joint_trajectory_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[2.920945] (joint_trajectory_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[2.920993] (joint_trajectory_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[2.921028] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.921066] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.921095] (joint_trajectory_controller) StderrLine: {'line': b'\n'}
+[2.923301] (joint_trajectory_controller) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.923583] (joint_trajectory_controller) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[2.942989] (joint_trajectory_controller) CommandEnded: {'returncode': 1}
+[2.964352] (joint_trajectory_controller) JobEnded: {'identifier': 'joint_trajectory_controller', 'rc': 1}
+[3.003951] (-) TimerEvent: {}
+[3.104356] (-) TimerEvent: {}
+[3.204706] (-) TimerEvent: {}
+[3.304890] (-) TimerEvent: {}
+[3.405139] (-) TimerEvent: {}
+[3.505425] (-) TimerEvent: {}
+[3.525377] (joint_state_broadcaster) StdoutLine: {'line': b'[ 38%] Creating deprecated header file /home/irman/ROS2_Humanoid_VLA/build/joint_state_broadcaster/include/joint_state_broadcaster_parameters.hpp\n'}
+[3.540365] (joint_state_broadcaster) StdoutLine: {'line': b'[ 38%] Built target joint_state_broadcaster_parameters\n'}
+[3.559650] (joint_state_broadcaster) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o\n'}
+[3.605535] (-) TimerEvent: {}
+[3.705747] (-) TimerEvent: {}
+[3.806067] (-) TimerEvent: {}
+[3.906505] (-) TimerEvent: {}
+[4.006811] (-) TimerEvent: {}
+[4.106991] (-) TimerEvent: {}
+[4.115014] (joint_state_broadcaster) StdoutLine: {'line': b'[ 53%] Linking CXX static library libgmock_main.a\n'}
+[4.152935] (joint_state_broadcaster) StdoutLine: {'line': b'[ 53%] Built target gmock_main\n'}
+[4.207248] (-) TimerEvent: {}
+[4.307560] (-) TimerEvent: {}
+[4.407732] (-) TimerEvent: {}
+[4.508071] (-) TimerEvent: {}
+[4.608309] (-) TimerEvent: {}
+[4.708550] (-) TimerEvent: {}
+[4.808783] (-) TimerEvent: {}
+[4.909056] (-) TimerEvent: {}
+[5.009422] (-) TimerEvent: {}
+[5.109670] (-) TimerEvent: {}
+[5.209895] (-) TimerEvent: {}
+[5.310183] (-) TimerEvent: {}
+[5.410424] (-) TimerEvent: {}
+[5.510611] (-) TimerEvent: {}
+[5.610789] (-) TimerEvent: {}
+[5.711067] (-) TimerEvent: {}
+[5.811401] (-) TimerEvent: {}
+[5.911622] (-) TimerEvent: {}
+[6.011914] (-) TimerEvent: {}
+[6.112286] (-) TimerEvent: {}
+[6.212563] (-) TimerEvent: {}
+[6.312788] (-) TimerEvent: {}
+[6.413122] (-) TimerEvent: {}
+[6.513444] (-) TimerEvent: {}
+[6.613659] (-) TimerEvent: {}
+[6.713880] (-) TimerEvent: {}
+[6.814219] (-) TimerEvent: {}
+[6.914516] (-) TimerEvent: {}
+[7.014687] (-) TimerEvent: {}
+[7.114903] (-) TimerEvent: {}
+[7.215212] (-) TimerEvent: {}
+[7.315528] (-) TimerEvent: {}
+[7.415752] (-) TimerEvent: {}
+[7.516052] (-) TimerEvent: {}
+[7.616515] (-) TimerEvent: {}
+[7.716679] (-) TimerEvent: {}
+[7.816882] (-) TimerEvent: {}
+[7.917173] (-) TimerEvent: {}
+[8.017394] (-) TimerEvent: {}
+[8.117601] (-) TimerEvent: {}
+[8.217825] (-) TimerEvent: {}
+[8.318135] (-) TimerEvent: {}
+[8.418394] (-) TimerEvent: {}
+[8.518600] (-) TimerEvent: {}
+[8.618798] (-) TimerEvent: {}
+[8.719078] (-) TimerEvent: {}
+[8.819392] (-) TimerEvent: {}
+[8.919561] (-) TimerEvent: {}
+[9.019788] (-) TimerEvent: {}
+[9.120141] (-) TimerEvent: {}
+[9.220497] (-) TimerEvent: {}
+[9.320699] (-) TimerEvent: {}
+[9.421089] (-) TimerEvent: {}
+[9.521365] (-) TimerEvent: {}
+[9.621563] (-) TimerEvent: {}
+[9.721794] (-) TimerEvent: {}
+[9.822108] (-) TimerEvent: {}
+[9.922441] (-) TimerEvent: {}
+[10.022657] (-) TimerEvent: {}
+[10.080966] (joint_state_broadcaster) StdoutLine: {'line': b'[ 61%] Linking CXX static library libgmock.a\n'}
+[10.122466] (joint_state_broadcaster) StdoutLine: {'line': b'[ 61%] Built target gmock\n'}
+[10.122657] (-) TimerEvent: {}
+[10.222904] (-) TimerEvent: {}
+[10.323157] (-) TimerEvent: {}
+[10.423388] (-) TimerEvent: {}
+[10.523662] (-) TimerEvent: {}
+[10.623847] (-) TimerEvent: {}
+[10.724025] (-) TimerEvent: {}
+[10.824219] (-) TimerEvent: {}
+[10.924489] (-) TimerEvent: {}
+[11.024791] (-) TimerEvent: {}
+[11.124995] (-) TimerEvent: {}
+[11.225275] (-) TimerEvent: {}
+[11.325645] (-) TimerEvent: {}
+[11.426044] (-) TimerEvent: {}
+[11.526259] (-) TimerEvent: {}
+[11.626452] (-) TimerEvent: {}
+[11.726760] (-) TimerEvent: {}
+[11.827062] (-) TimerEvent: {}
+[11.927272] (-) TimerEvent: {}
+[12.027482] (-) TimerEvent: {}
+[12.127705] (-) TimerEvent: {}
+[12.224981] (joint_state_broadcaster) StdoutLine: {'line': b'[ 69%] Linking CXX shared library libjoint_state_broadcaster.so\n'}
+[12.227813] (-) TimerEvent: {}
+[12.327985] (-) TimerEvent: {}
+[12.425001] (joint_state_broadcaster) StdoutLine: {'line': b'[ 69%] Built target joint_state_broadcaster\n'}
+[12.428087] (-) TimerEvent: {}
+[12.445861] (joint_state_broadcaster) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o\n'}
+[12.528293] (-) TimerEvent: {}
+[12.628710] (-) TimerEvent: {}
+[12.728917] (-) TimerEvent: {}
+[12.829148] (-) TimerEvent: {}
+[12.929412] (-) TimerEvent: {}
+[13.029618] (-) TimerEvent: {}
+[13.129811] (-) TimerEvent: {}
+[13.230062] (-) TimerEvent: {}
+[13.330307] (-) TimerEvent: {}
+[13.430504] (-) TimerEvent: {}
+[13.530714] (-) TimerEvent: {}
+[13.631029] (-) TimerEvent: {}
+[13.731348] (-) TimerEvent: {}
+[13.831566] (-) TimerEvent: {}
+[13.931841] (-) TimerEvent: {}
+[14.032139] (-) TimerEvent: {}
+[14.132358] (-) TimerEvent: {}
+[14.232574] (-) TimerEvent: {}
+[14.332837] (-) TimerEvent: {}
+[14.433994] (-) TimerEvent: {}
+[14.534391] (-) TimerEvent: {}
+[14.634556] (-) TimerEvent: {}
+[14.734774] (-) TimerEvent: {}
+[14.835118] (-) TimerEvent: {}
+[14.935317] (-) TimerEvent: {}
+[15.035521] (-) TimerEvent: {}
+[15.135823] (-) TimerEvent: {}
+[15.236117] (-) TimerEvent: {}
+[15.336321] (-) TimerEvent: {}
+[15.436600] (-) TimerEvent: {}
+[15.536883] (-) TimerEvent: {}
+[15.637140] (-) TimerEvent: {}
+[15.737317] (-) TimerEvent: {}
+[15.837510] (-) TimerEvent: {}
+[15.937808] (-) TimerEvent: {}
+[16.037978] (-) TimerEvent: {}
+[16.138149] (-) TimerEvent: {}
+[16.238444] (-) TimerEvent: {}
+[16.338734] (-) TimerEvent: {}
+[16.438925] (-) TimerEvent: {}
+[16.539123] (-) TimerEvent: {}
+[16.639376] (-) TimerEvent: {}
+[16.739602] (-) TimerEvent: {}
+[16.839815] (-) TimerEvent: {}
+[16.940073] (-) TimerEvent: {}
+[17.040518] (-) TimerEvent: {}
+[17.140888] (-) TimerEvent: {}
+[17.241158] (-) TimerEvent: {}
+[17.255948] (joint_state_broadcaster) StdoutLine: {'line': b'[ 84%] Linking CXX executable test_load_joint_state_broadcaster\n'}
+[17.341343] (-) TimerEvent: {}
+[17.441605] (-) TimerEvent: {}
+[17.491210] (joint_state_broadcaster) StdoutLine: {'line': b'[ 84%] Built target test_load_joint_state_broadcaster\n'}
+[17.511208] (joint_state_broadcaster) StdoutLine: {'line': b'[ 92%] Building CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o\n'}
+[17.541714] (-) TimerEvent: {}
+[17.641905] (-) TimerEvent: {}
+[17.742157] (-) TimerEvent: {}
+[17.842393] (-) TimerEvent: {}
+[17.942626] (-) TimerEvent: {}
+[18.042840] (-) TimerEvent: {}
+[18.143123] (-) TimerEvent: {}
+[18.243432] (-) TimerEvent: {}
+[18.343623] (-) TimerEvent: {}
+[18.443904] (-) TimerEvent: {}
+[18.544259] (-) TimerEvent: {}
+[18.644529] (-) TimerEvent: {}
+[18.744707] (-) TimerEvent: {}
+[18.844965] (-) TimerEvent: {}
+[18.945399] (-) TimerEvent: {}
+[19.045602] (-) TimerEvent: {}
+[19.145809] (-) TimerEvent: {}
+[19.246136] (-) TimerEvent: {}
+[19.346454] (-) TimerEvent: {}
+[19.446672] (-) TimerEvent: {}
+[19.546908] (-) TimerEvent: {}
+[19.647217] (-) TimerEvent: {}
+[19.747613] (-) TimerEvent: {}
+[19.847851] (-) TimerEvent: {}
+[19.948155] (-) TimerEvent: {}
+[20.048409] (-) TimerEvent: {}
+[20.148582] (-) TimerEvent: {}
+[20.248779] (-) TimerEvent: {}
+[20.349060] (-) TimerEvent: {}
+[20.449436] (-) TimerEvent: {}
+[20.549700] (-) TimerEvent: {}
+[20.649880] (-) TimerEvent: {}
+[20.750129] (-) TimerEvent: {}
+[20.850417] (-) TimerEvent: {}
+[20.950642] (-) TimerEvent: {}
+[21.050928] (-) TimerEvent: {}
+[21.151291] (-) TimerEvent: {}
+[21.251593] (-) TimerEvent: {}
+[21.351805] (-) TimerEvent: {}
+[21.452087] (-) TimerEvent: {}
+[21.552494] (-) TimerEvent: {}
+[21.652795] (-) TimerEvent: {}
+[21.753031] (-) TimerEvent: {}
+[21.853356] (-) TimerEvent: {}
+[21.953628] (-) TimerEvent: {}
+[22.053814] (-) TimerEvent: {}
+[22.154031] (-) TimerEvent: {}
+[22.254457] (-) TimerEvent: {}
+[22.354775] (-) TimerEvent: {}
+[22.454982] (-) TimerEvent: {}
+[22.555187] (-) TimerEvent: {}
+[22.655463] (-) TimerEvent: {}
+[22.755735] (-) TimerEvent: {}
+[22.855942] (-) TimerEvent: {}
+[22.956245] (-) TimerEvent: {}
+[23.056616] (-) TimerEvent: {}
+[23.156812] (-) TimerEvent: {}
+[23.257002] (-) TimerEvent: {}
+[23.357271] (-) TimerEvent: {}
+[23.458013] (-) TimerEvent: {}
+[23.558206] (-) TimerEvent: {}
+[23.658396] (-) TimerEvent: {}
+[23.758718] (-) TimerEvent: {}
+[23.858968] (-) TimerEvent: {}
+[23.959169] (-) TimerEvent: {}
+[24.059405] (-) TimerEvent: {}
+[24.159718] (-) TimerEvent: {}
+[24.260017] (-) TimerEvent: {}
+[24.360230] (-) TimerEvent: {}
+[24.460462] (-) TimerEvent: {}
+[24.560743] (-) TimerEvent: {}
+[24.660944] (-) TimerEvent: {}
+[24.761147] (-) TimerEvent: {}
+[24.861501] (-) TimerEvent: {}
+[24.961838] (-) TimerEvent: {}
+[25.062054] (-) TimerEvent: {}
+[25.162271] (-) TimerEvent: {}
+[25.262630] (-) TimerEvent: {}
+[25.362905] (-) TimerEvent: {}
+[25.463114] (-) TimerEvent: {}
+[25.563591] (-) TimerEvent: {}
+[25.663994] (-) TimerEvent: {}
+[25.764268] (-) TimerEvent: {}
+[25.864460] (-) TimerEvent: {}
+[25.964721] (-) TimerEvent: {}
+[26.064989] (-) TimerEvent: {}
+[26.165165] (-) TimerEvent: {}
+[26.265452] (-) TimerEvent: {}
+[26.365901] (-) TimerEvent: {}
+[26.466183] (-) TimerEvent: {}
+[26.566393] (-) TimerEvent: {}
+[26.666574] (-) TimerEvent: {}
+[26.766828] (-) TimerEvent: {}
+[26.867097] (-) TimerEvent: {}
+[26.967288] (-) TimerEvent: {}
+[27.067594] (-) TimerEvent: {}
+[27.167985] (-) TimerEvent: {}
+[27.268279] (-) TimerEvent: {}
+[27.368518] (-) TimerEvent: {}
+[27.468788] (-) TimerEvent: {}
+[27.569055] (-) TimerEvent: {}
+[27.669258] (-) TimerEvent: {}
+[27.769425] (-) TimerEvent: {}
+[27.869716] (-) TimerEvent: {}
+[27.969961] (-) TimerEvent: {}
+[28.070131] (-) TimerEvent: {}
+[28.170404] (-) TimerEvent: {}
+[28.270749] (-) TimerEvent: {}
+[28.371095] (-) TimerEvent: {}
+[28.471393] (-) TimerEvent: {}
+[28.571595] (-) TimerEvent: {}
+[28.671910] (-) TimerEvent: {}
+[28.772193] (-) TimerEvent: {}
+[28.872373] (-) TimerEvent: {}
+[28.972672] (-) TimerEvent: {}
+[29.072966] (-) TimerEvent: {}
+[29.173234] (-) TimerEvent: {}
+[29.273378] (-) TimerEvent: {}
+[29.373628] (-) TimerEvent: {}
+[29.473886] (-) TimerEvent: {}
+[29.574064] (-) TimerEvent: {}
+[29.674251] (-) TimerEvent: {}
+[29.774405] (-) TimerEvent: {}
+[29.874612] (-) TimerEvent: {}
+[29.974993] (-) TimerEvent: {}
+[30.075263] (-) TimerEvent: {}
+[30.175602] (-) TimerEvent: {}
+[30.275891] (-) TimerEvent: {}
+[30.376119] (-) TimerEvent: {}
+[30.476401] (-) TimerEvent: {}
+[30.576663] (-) TimerEvent: {}
+[30.676852] (-) TimerEvent: {}
+[30.777047] (-) TimerEvent: {}
+[30.877637] (-) TimerEvent: {}
+[30.977901] (-) TimerEvent: {}
+[31.078113] (-) TimerEvent: {}
+[31.178340] (-) TimerEvent: {}
+[31.278664] (-) TimerEvent: {}
+[31.378905] (-) TimerEvent: {}
+[31.479098] (-) TimerEvent: {}
+[31.579373] (-) TimerEvent: {}
+[31.679768] (-) TimerEvent: {}
+[31.780090] (-) TimerEvent: {}
+[31.880336] (-) TimerEvent: {}
+[31.980602] (-) TimerEvent: {}
+[32.080914] (-) TimerEvent: {}
+[32.181107] (-) TimerEvent: {}
+[32.281367] (-) TimerEvent: {}
+[32.381643] (-) TimerEvent: {}
+[32.481916] (-) TimerEvent: {}
+[32.582124] (-) TimerEvent: {}
+[32.682358] (-) TimerEvent: {}
+[32.782706] (-) TimerEvent: {}
+[32.784361] (joint_state_broadcaster) StderrLine: {'line': b'In file included from /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/hashtable_policy.h:36,\n'}
+[32.784593] (joint_state_broadcaster) StderrLine: {'line': b'                 from /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/hashtable.h:35,\n'}
+[32.784647] (joint_state_broadcaster) StderrLine: {'line': b'                 from /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/unordered_map.h:33,\n'}
+[32.784686] (joint_state_broadcaster) StderrLine: {'line': b'                 from /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/unordered_map:41,\n'}
+[32.784724] (joint_state_broadcaster) StderrLine: {'line': b'                 from /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/functional:63,\n'}
+[32.784772] (joint_state_broadcaster) StderrLine: {'line': b'                 from /home/irman/ROS2_Humanoid_VLA/src/ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:17:\n'}
+[32.784808] (joint_state_broadcaster) StderrLine: {'line': b"In static member function 'static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false]',\n"}
+[32.784846] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30,\n"}
+[32.784885] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42,\n"}
+[32.784925] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31,\n"}
+[32.784966] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7,\n"}
+[32.785001] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27,\n"}
+[32.785037] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15,\n"}
+[32.785072] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37,\n"}
+[32.785112] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:609:31,\n"}
+[32.785147] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'void rclcpp::experimental::IntraProcessManager::do_intra_process_publish(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type&) [with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >]' at /home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:217:29:\n"}
+[32.785188] (joint_state_broadcaster) StderrLine: {'line': b"/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30: warning: 'void* __builtin_memmove(void*, const void*, long unsigned int)' forming offset 8 is out of the bounds [0, 8] [-Warray-bounds=]\n"}
+[32.785227] (joint_state_broadcaster) StderrLine: {'line': b'  452 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);\n'}
+[32.785259] (joint_state_broadcaster) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[32.785297] (joint_state_broadcaster) StderrLine: {'line': b"In static member function 'static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false]',\n"}
+[32.785340] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30,\n"}
+[32.785377] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42,\n"}
+[32.785409] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31,\n"}
+[32.785441] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7,\n"}
+[32.785477] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27,\n"}
+[32.785511] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15,\n"}
+[32.785544] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37,\n"}
+[32.785575] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'void std::vector<_Tp, _Alloc>::_M_range_insert(iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/vector.tcc:987:34,\n"}
+[32.785614] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(const_iterator, _InputIterator, _InputIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; <template-parameter-2-2> = void; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]' at /home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:1501:19,\n"}
+[32.785653] (joint_state_broadcaster) StderrLine: {'line': b"    inlined from 'void rclcpp::experimental::IntraProcessManager::do_intra_process_publish(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type&) [with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >]' at /home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:218:33:\n"}
+[32.785685] (joint_state_broadcaster) StderrLine: {'line': b"/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30: warning: 'void* __builtin_memmove(void*, const void*, long unsigned int)' forming offset 8 is out of the bounds [0, 8] [-Warray-bounds=]\n"}
+[32.785717] (joint_state_broadcaster) StderrLine: {'line': b'  452 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);\n'}
+[32.785747] (joint_state_broadcaster) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[32.882777] (-) TimerEvent: {}
+[32.982973] (-) TimerEvent: {}
+[33.083354] (-) TimerEvent: {}
+[33.183733] (-) TimerEvent: {}
+[33.284050] (-) TimerEvent: {}
+[33.384229] (-) TimerEvent: {}
+[33.484666] (-) TimerEvent: {}
+[33.584984] (-) TimerEvent: {}
+[33.685298] (-) TimerEvent: {}
+[33.785522] (-) TimerEvent: {}
+[33.885823] (-) TimerEvent: {}
+[33.986134] (-) TimerEvent: {}
+[34.086336] (-) TimerEvent: {}
+[34.186524] (-) TimerEvent: {}
+[34.286819] (-) TimerEvent: {}
+[34.387193] (-) TimerEvent: {}
+[34.487530] (-) TimerEvent: {}
+[34.587810] (-) TimerEvent: {}
+[34.688192] (-) TimerEvent: {}
+[34.788542] (-) TimerEvent: {}
+[34.888929] (-) TimerEvent: {}
+[34.989242] (-) TimerEvent: {}
+[35.089566] (-) TimerEvent: {}
+[35.189804] (-) TimerEvent: {}
+[35.290078] (-) TimerEvent: {}
+[35.390396] (-) TimerEvent: {}
+[35.490720] (-) TimerEvent: {}
+[35.591106] (-) TimerEvent: {}
+[35.691409] (-) TimerEvent: {}
+[35.791597] (-) TimerEvent: {}
+[35.891771] (-) TimerEvent: {}
+[35.991957] (-) TimerEvent: {}
+[36.092239] (-) TimerEvent: {}
+[36.192708] (-) TimerEvent: {}
+[36.292992] (-) TimerEvent: {}
+[36.393268] (-) TimerEvent: {}
+[36.493596] (-) TimerEvent: {}
+[36.593862] (-) TimerEvent: {}
+[36.694056] (-) TimerEvent: {}
+[36.794252] (-) TimerEvent: {}
+[36.894483] (-) TimerEvent: {}
+[36.994797] (-) TimerEvent: {}
+[37.095042] (-) TimerEvent: {}
+[37.195374] (-) TimerEvent: {}
+[37.295796] (-) TimerEvent: {}
+[37.396053] (-) TimerEvent: {}
+[37.496344] (-) TimerEvent: {}
+[37.596578] (-) TimerEvent: {}
+[37.696936] (-) TimerEvent: {}
+[37.797202] (-) TimerEvent: {}
+[37.838200] (joint_state_broadcaster) StdoutLine: {'line': b'[100%] Linking CXX executable test_joint_state_broadcaster\n'}
+[37.897337] (-) TimerEvent: {}
+[37.997666] (-) TimerEvent: {}
+[38.097939] (-) TimerEvent: {}
+[38.145297] (joint_state_broadcaster) StdoutLine: {'line': b'[100%] Built target test_joint_state_broadcaster\n'}
+[38.159284] (joint_state_broadcaster) JobEnded: {'identifier': 'joint_state_broadcaster', 'rc': 'SIGINT'}
+[38.169781] (-) EventReactorShutdown: {}

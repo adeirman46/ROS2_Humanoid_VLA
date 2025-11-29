@@ -1,0 +1,11 @@
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/uninstall.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/g1_controller_uninstall.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/ament_cmake_python_symlink_g1_controller.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/ament_cmake_python_build_g1_controller_egg.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/test.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/edit_cache.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/rebuild_cache.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/list_install_components.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/install.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/install/local.dir
+/home/irman/ROS2_Humanoid_VLA/build/g1_controller/CMakeFiles/install/strip.dir

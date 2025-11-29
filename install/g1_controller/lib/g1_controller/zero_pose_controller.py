@@ -1,0 +1,1 @@
+/home/irman/ROS2_Humanoid_VLA/g1_controller/scripts/zero_pose_controller.py

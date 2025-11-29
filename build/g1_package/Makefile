@@ -57,10 +57,10 @@ RM = /home/irman/micromamba/envs/ros2_env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/irman/Documents/HUMA/ws_g1/g1_package
+CMAKE_SOURCE_DIR = /home/irman/ROS2_Humanoid_VLA/g1_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/irman/Documents/HUMA/ws_g1/build/g1_package
+CMAKE_BINARY_DIR = /home/irman/ROS2_Humanoid_VLA/build/g1_package
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/irman/Documents/HUMA/ws_g1/build/g1_package/CMakeFiles /home/irman/Documents/HUMA/ws_g1/build/g1_package//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/irman/ROS2_Humanoid_VLA/build/g1_package/CMakeFiles /home/irman/ROS2_Humanoid_VLA/build/g1_package//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/irman/Documents/HUMA/ws_g1/build/g1_package/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/irman/ROS2_Humanoid_VLA/build/g1_package/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
