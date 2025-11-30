@@ -1,0 +1,303 @@
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.4.0 (/home/irman/micromamba/envs/ros2_env/share/ament_index_cpp/cmake)
+-- Found controller_interface: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2
+-- Found OpenSSL: /home/irman/micromamba/envs/ros2_env/lib/libcrypto.so (found version "3.5.4")
+-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2
+-- Found FastRTPS: /home/irman/micromamba/envs/ros2_env/include
+-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /home/irman/micromamba/envs/ros2_env/lib/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found controller_manager_msgs: 2.51.0 (/home/irman/micromamba/envs/ros2_env/share/controller_manager_msgs/cmake)
+-- Found realtime_tools: 2.14.0 (/home/irman/micromamba/envs/ros2_env/share/realtime_tools/cmake)
+-- Found ament_cmake_gmock: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gmock/cmake)
+-- Found ros2_control_test_assets: 2.52.2 (/home/irman/ROS2_Humanoid_VLA/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/home/irman/micromamba/envs/ros2_env/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+[0mCMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake_gtest: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/irman/micromamba/envs/ros2_env/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0mCMake Deprecation Warning at /home/irman/micromamba/envs/ros2_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake_pytest: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake_pytest/cmake)
+-- Configuring done (3.2s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/irman/ROS2_Humanoid_VLA/build/controller_manager
+[ 10%] [1m[34mGenerating controller_manager/version.h[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/irman/micromamba/envs/ros2_env/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 10%] Built target ament_cmake_python_symlink_controller_manager
+[ 10%] Built target ament_cmake_python_symlink_controller_manager_setup
+[ 10%] Built target ament_generate_version_header__controller_manager
+[ 12%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+running install_scripts
+running egg_info
+creating controller_manager.egg-info
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_controller_manager_egg
+Installing hardware_spawner script to scripts
+Installing spawner script to scripts
+Installing unspawner script to scripts
+[ 12%] Built target ament_cmake_python_build_controller_manager_scripts
+[ 15%] [1m[32mLinking CXX static library libgmock_main.a[0m
+[ 15%] Built target gmock_main
+[ 17%] [1m[32mLinking CXX static library libgmock.a[0m
+[ 17%] Built target gmock
+In file included from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_tree.h:63[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/map:62[m[K,
+                 from [01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:18[m[K,
+                 from [01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+In static member function '[01m[Kstatic _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_m[m[K(_Tp*, _Tp*, _Up*) [35m[K[with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false][m[K[m[K',
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a2[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a1[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31[m[K,
+    inlined from '[01m[K_OI std::[01;32m[Kcopy[m[K(_II, _II, _OI) [35m[K[with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7[m[K,
+    inlined from '[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::[01;32m[K__uninit_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[Kuninitialized_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[K__uninitialized_copy_a[m[K(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37[m[K,
+    inlined from '[01m[Kstd::vector<_Tp, _Alloc>::[01;32m[Kvector[m[K(const std::vector<_Tp, _Alloc>&) [35m[K[with _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:609:31[m[K,
+    inlined from '[01m[Kvoid rclcpp::experimental::IntraProcessManager::[01;32m[Kdo_intra_process_publish[m[K(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type&) [35m[K[with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:217:29[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid*[01;32m[K __builtin_memmove[m[K(void*, const void*, long unsigned int)[m[K' forming offset 8 is out of the bounds [0, 8] [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds=]8;;[m[K]
+  452 |         [01;35m[K__builtin_memmove(__result, __first, sizeof(_Tp) * _Num)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In static member function '[01m[Kstatic _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_m[m[K(_Tp*, _Tp*, _Up*) [35m[K[with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false][m[K[m[K',
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a2[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a1[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31[m[K,
+    inlined from '[01m[K_OI std::[01;32m[Kcopy[m[K(_II, _II, _OI) [35m[K[with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7[m[K,
+    inlined from '[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::[01;32m[K__uninit_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[Kuninitialized_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[K__uninitialized_copy_a[m[K(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37[m[K,
+    inlined from '[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[K_M_range_insert[m[K(iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [35m[K[with _ForwardIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/vector.tcc:987:34[m[K,
+    inlined from '[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::[01;32m[Kinsert[m[K(const_iterator, _InputIterator, _InputIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; <template-parameter-2-2> = void; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:1501:19[m[K,
+    inlined from '[01m[Kvoid rclcpp::experimental::IntraProcessManager::[01;32m[Kdo_intra_process_publish[m[K(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type&) [35m[K[with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:218:33[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid*[01;32m[K __builtin_memmove[m[K(void*, const void*, long unsigned int)[m[K' forming offset 8 is out of the bounds [0, 8] [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds=]8;;[m[K]
+  452 |         [01;35m[K__builtin_memmove(__result, __first, sizeof(_Tp) * _Num)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[ 20%] [1m[32mLinking CXX shared library libcontroller_manager.so[0m
+[ 20%] Built target controller_manager
+[ 40%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_controller_failed_activate.dir/test/test_controller_failed_activate/test_controller_failed_activate.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_hardware_spawner.dir/test/test_hardware_spawner.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[ 42%] [1m[32mLinking CXX shared library libtest_controller.so[0m
+[ 42%] Built target test_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[ 55%] [1m[32mLinking CXX shared library libtest_controller_failed_activate.so[0m
+[ 57%] [1m[32mLinking CXX shared library libtest_controller_failed_init.so[0m
+[ 60%] [1m[32mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[ 60%] Built target test_controller_failed_activate
+[ 60%] Built target test_controller_with_interfaces
+[ 60%] Built target test_controller_failed_init
+[ 62%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[ 67%] [1m[32mLinking CXX executable ros2_control_node[0m
+[ 67%] Built target ros2_control_node
+[ 70%] [1m[32mLinking CXX executable test_controller_manager_urdf_passing[0m
+[ 70%] Built target test_controller_manager_urdf_passing
+[ 72%] [1m[32mLinking CXX executable test_hardware_spawner[0m
+[ 72%] Built target test_hardware_spawner
+In file included from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:63[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/memory:69[m[K,
+                 from [01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:18[m[K,
+                 from [01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:15[m[K:
+In static member function '[01m[Kstatic _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_m[m[K(_Tp*, _Tp*, _Up*) [35m[K[with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false][m[K[m[K',
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a2[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a1[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31[m[K,
+    inlined from '[01m[K_OI std::[01;32m[Kcopy[m[K(_II, _II, _OI) [35m[K[with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7[m[K,
+    inlined from '[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::[01;32m[K__uninit_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[Kuninitialized_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[K__uninitialized_copy_a[m[K(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37[m[K,
+    inlined from '[01m[Kstd::vector<_Tp, _Alloc>::[01;32m[Kvector[m[K(const std::vector<_Tp, _Alloc>&) [35m[K[with _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:609:31[m[K,
+    inlined from '[01m[Kvoid rclcpp::experimental::IntraProcessManager::[01;32m[Kdo_intra_process_publish[m[K(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_Allocator>::rebind_traits<MessageT>::allocator_type&) [35m[K[with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:217:29[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid*[01;32m[K __builtin_memmove[m[K(void*, const void*, long unsigned int)[m[K' forming offset 8 is out of the bounds [0, 8] [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds=]8;;[m[K]
+  452 |             [01;35m[K__builtin_memmove(__result, __first, sizeof(_Tp) * _Num)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In static member function '[01m[Kstatic _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::[01;32m[K__copy_m[m[K(_Tp*, _Tp*, _Up*) [35m[K[with _Tp = const long unsigned int; _Up = long unsigned int; bool _IsMove = false][m[K[m[K',
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a2[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:521:30[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a1[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = const long unsigned int*; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:548:42[m[K,
+    inlined from '[01m[K_OI std::[01;32m[K__copy_move_a[m[K(_II, _II, _OI) [35m[K[with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:555:31[m[K,
+    inlined from '[01m[K_OI std::[01;32m[Kcopy[m[K(_II, _II, _OI) [35m[K[with _II = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _OI = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:651:7[m[K,
+    inlined from '[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::[01;32m[K__uninit_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:147:27[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[Kuninitialized_copy[m[K(_InputIterator, _InputIterator, _ForwardIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:185:15[m[K,
+    inlined from '[01m[K_ForwardIterator std::[01;32m[K__uninitialized_copy_a[m[K(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, vector<long unsigned int> >; _ForwardIterator = long unsigned int*; _Tp = long unsigned int][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h:373:37[m[K,
+    inlined from '[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[K_M_range_insert[m[K(iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [35m[K[with _ForwardIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/vector.tcc:987:34[m[K,
+    inlined from '[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::[01;32m[Kinsert[m[K(const_iterator, _InputIterator, _InputIterator) [35m[K[with _InputIterator = __gnu_cxx::__normal_iterator<const long unsigned int*, std::vector<long unsigned int> >; <template-parameter-2-2> = void; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h:1501:19[m[K,
+    inlined from '[01m[Kvoid rclcpp::experimental::IntraProcessManager::[01;32m[Kdo_intra_process_publish[m[K(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_Allocator>::rebind_traits<MessageT>::allocator_type&) [35m[K[with MessageT = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; ROSMessageType = statistics_msgs::msg::MetricsMessage_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<statistics_msgs::msg::MetricsMessage_<std::allocator<void> > >][m[K[m[K' at [01m[K/home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:218:33[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h:452:30:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid*[01;32m[K __builtin_memmove[m[K(void*, const void*, long unsigned int)[m[K' forming offset 8 is out of the bounds [0, 8] [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds=]8;;[m[K]
+  452 |             [01;35m[K__builtin_memmove(__result, __first, sizeof(_Tp) * _Num)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [1m[32mLinking CXX executable test_controller_manager_with_namespace[0m
+[ 75%] Built target test_controller_manager_with_namespace
+[ 77%] [1m[32mLinking CXX shared library libtest_chainable_controller.so[0m
+[ 77%] Built target test_chainable_controller
+[ 82%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[ 85%] [1m[32mLinking CXX executable test_release_interfaces[0m
+[ 85%] Built target test_release_interfaces
+[ 87%] [1m[32mLinking CXX executable test_hardware_management_srvs[0m
+[ 87%] Built target test_hardware_management_srvs
+[ 90%] [1m[32mLinking CXX executable test_controller_manager[0m
+[ 90%] Built target test_controller_manager
+[ 92%] [1m[32mLinking CXX executable test_load_controller[0m
+[ 92%] Built target test_load_controller
+[ 95%] [1m[32mLinking CXX executable test_spawner_unspawner[0m
+[ 95%] Built target test_spawner_unspawner
+[01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:[m[K In member function '[01m[Kvirtual void TestControllerManagerSrvs_list_sorted_large_chained_controller_tree_Test::[01;32m[KTestBody[m[K()[m[K':
+[01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:1497:22:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid std::[01;32m[Krandom_shuffle[m[K(_RAIter, _RAIter) [35m[K[with _RAIter = __gnu_cxx::__normal_iterator<__cxx11::basic_string<char>*, vector<__cxx11::basic_string<char> > >][m[K[m[K' is deprecated: use 'std::shuffle' instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1497 |   [01;35m[Kstd::random_shuffle(controllers_list.begin(), controllers_list.end())[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/algorithm:61[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/src/gmock_vendor/include/gmock/gmock-actions.h:44[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+                 from [01m[K/home/irman/ROS2_Humanoid_VLA/src/ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:15[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algo.h:4492:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 4492 |     [01;36m[Krandom_shuffle[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last)
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[ 97%] [1m[32mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[ 97%] Built target test_controllers_chaining_with_controller_manager
+[100%] [1m[32mLinking CXX executable test_controller_manager_srvs[0m
+[100%] Built target test_controller_manager_srvs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libtest_controller.so
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libtest_controller_failed_init.so
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libtest_chainable_controller.so
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libtest_controller_with_interfaces.so
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/test/test_controller_failed_activate/test_controller_failed_activate.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libtest_controller_failed_activate.so
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/test/test_ros2_control_node.yaml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/test/test_controller_spawner_wildcard_entries.yaml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/test/test_controller_spawner_with_basic_controllers.yaml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/test/test_controller_spawner_with_interfaces.yaml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/test/test_controller_spawner_with_type.yaml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/include/controller_manager/controller_manager/controller_spec.hpp
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/include/controller_manager/controller_manager/visibility_control.h
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/controller_manager/ros2_control_node
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager-2.52.2-py3.11.egg-info/PKG-INFO
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager-2.52.2-py3.11.egg-info/SOURCES.txt
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager-2.52.2-py3.11.egg-info/dependency_links.txt
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager-2.52.2-py3.11.egg-info/entry_points.txt
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager-2.52.2-py3.11.egg-info/top_level.txt
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/controller_manager//hardware_spawner
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/controller_manager//spawner
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/controller_manager//unspawner
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/__init__.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/controller_manager_services.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/hardware_spawner.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/launch_utils.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/spawner.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/test_utils.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/python3.11/site-packages/controller_manager/unspawner.py
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/path.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/environment/path.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/local_setup.bash
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/local_setup.sh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/local_setup.zsh
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/local_setup.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/package.dsv
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/package.xml
+-- Symlinking: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/include/controller_manager/controller_manager/version.h
+-- Installing: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libcontroller_manager.so
+Listing 'lib/python3.11/site-packages/controller_manager'...
+Can't list 'lib/python3.11/site-packages/controller_manager'
+-- Installing: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport.cmake
+-- Installing: /home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport-noconfig.cmake

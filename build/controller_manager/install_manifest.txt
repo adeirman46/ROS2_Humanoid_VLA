@@ -1,0 +1,3 @@
+/home/irman/ROS2_Humanoid_VLA/install/controller_manager/lib/libcontroller_manager.so
+/home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport.cmake
+/home/irman/ROS2_Humanoid_VLA/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport-noconfig.cmake

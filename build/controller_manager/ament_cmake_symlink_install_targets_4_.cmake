@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/irman/ROS2_Humanoid_VLA/build/controller_manager/libtest_controller_failed_activate.so" "TARGETS" "test_controller_failed_activate" "DESTINATION" "lib")

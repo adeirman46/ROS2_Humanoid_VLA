@@ -1,0 +1,2 @@
+/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar qc libgmock.a "CMakeFiles/gmock.dir/home/irman/micromamba/envs/ros2_env/src/gtest_vendor/src/gtest-all.cc.o" "CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+/home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib libgmock.a

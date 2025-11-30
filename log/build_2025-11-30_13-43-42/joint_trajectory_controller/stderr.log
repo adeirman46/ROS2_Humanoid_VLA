@@ -1,0 +1,12 @@
+[33mCMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/irman/micromamba/envs/ros2_env/share/filters/cmake/filtersConfig.cmake:41 (include)
+  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/irman/micromamba/envs/ros2_env/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+  CMakeLists.txt:28 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

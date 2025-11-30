@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/irman/ROS2_Humanoid_VLA/build/controller_manager/cmake_install.cmake",
+		"/home/irman/ROS2_Humanoid_VLA/build/controller_manager/gmock/cmake_install.cmake",
+		"/home/irman/ROS2_Humanoid_VLA/build/controller_manager/gtest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
